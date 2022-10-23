@@ -1,0 +1,124 @@
+.special1 {
+    height: 500px;
+    background-size: cover;
+    background: #000 url(./images/autumn.jpg) no-repeat center;
+    display: flex;
+}
+.special1 .coffeeimage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* border: 1px solid #000; */
+}
+.special1 .coffeeInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coffeeInfo h3{
+    color: #555;
+    font-size: 13px;
+}
+.coffeeInfo h1{
+    color: #333;
+}
+.coffeeInfo p{
+    color: #555;
+    font-size: 13px;
+}
+.coffeeInfo a{
+    font-size: 13px;
+    border: 2px solid #000;
+    padding: 7px 0;
+    width: 110px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.coffeeInfo a:hover {
+    text-decoration: underline;
+    background-color: #fff;
+}
+
+.special2 {
+    height: 500px;
+    background: #000 url(./images/night-sky.jpg) no-repeat bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.speical2-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.speical2-container::before {
+    content: '';
+    background-color: rgba(255, 255, 255, 0.185);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.speical2-container>div {
+    flex: 1;
+    color: #7f4219;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: inherit;
+    z-index: 2;
+}
+.rwanda .rwanda-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.rwanda-img img {
+    margin-right: 20px;
+}
+.rwanda .text-link {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.text-link h1 {
+    font-size: 72px;
+}
+.text-link h3 {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    margin-bottom: 30px;
+}
+.text-link a {
+    font-size: 14px;
+    color: #7f4219;
+    border: 2px solid #7f4219;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.text-link a:hover {
+    color: #fff;
+    background-color: #7f4219;
+    text-decoration: underline;
+}
+.special2 .mug {
+    display: flex;
+    justify-content: flex-start;
+    border: red;
+}

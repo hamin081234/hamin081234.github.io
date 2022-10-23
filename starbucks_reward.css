@@ -1,0 +1,87 @@
+.reward{
+    display: flex;
+    background-color: #1E3932;
+    color: #fff;
+}
+.reward .logo_reward{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo_reward img {
+    margin-right: 40px;
+}
+.reward .registeration{
+    flex: 2;
+}
+.container {
+    width: 700px;
+}
+.login_reward {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+.login_reward h1 {
+    font-weight: 500;
+    margin: 15px 0;
+    font-size: 20px;
+}
+.registeration .login_reward #login {
+    display: flex;
+    /* border: 1px solid #000; */
+    align-items: center;
+    justify-content: space-between;
+}
+.login_reward #login p {
+    margin: 0;
+    font-size: 12px;
+}
+.login_reward #login .reg_types {
+    margin: 0;
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+}
+.reg_types a {
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.registeration a:hover {
+    text-decoration: underline;
+}
+.reg_types a:first-child {
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: 2px solid #00704A;
+    background-color:#00704A;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.gift-card{
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.gift-card p {
+    margin: 0;
+    font-size: 12px;
+}
+.gift-card a {
+    color: #fff;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 7px 0;
+    text-align: center;
+    width: 165px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}

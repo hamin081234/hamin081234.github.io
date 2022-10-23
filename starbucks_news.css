@@ -1,0 +1,43 @@
+.news {
+    display: flex;
+}
+.news .announcement {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: #000;
+}
+.announcement h3{
+    flex: 5;
+    text-align: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.announcement #ann_news{
+    flex: 8;
+    color: #fff;
+}
+.announcement #ann_news:hover{
+    text-decoration: underline;
+}
+.announcement a:last-child{
+    text-align: center;
+    font-size: 33px;
+    flex: 1;
+    color: #fff;
+}
+
+.news .promotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+    color: #000;
+}
+.promotion h3{}
+.promotion i{
+    font-size: 33px;
+}
